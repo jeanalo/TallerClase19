@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    
+    background: radial-gradient(circle, rgba(97,97,97,0.7223681709011729) 3%, rgba(249,206,212,1) 46%, rgba(238,156,27,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    /* padding, margin y font-size siempre en rems */
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex: wrap;
+    flex-direction: column;
+  }
+  
+  .img-item {
+    width: 150px;
+    height: 150px;
+    border-radius: 3rem;
+  }
